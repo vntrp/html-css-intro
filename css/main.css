@@ -23,7 +23,9 @@ section {
 }
 /* select all the UL elements that are anywhere insde a NAV element */
 nav {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    background-color: green;
+    padding: 5px;
 }
 
 nav ul {
@@ -36,7 +38,6 @@ nav li {
     border: 1px solid black;
     padding: 5px;
     margin-left: 20px;
-    background-color: green;
     
 }
 nav a {
