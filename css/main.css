@@ -22,14 +22,22 @@ section {
     background-color: rgba(0, 255, 0, 0.5);
 }
 /* select all the UL elements that are anywhere insde a NAV element */
+nav {
+    margin-bottom: 10px;
+}
+
 nav ul {
     list-style: none;
+    margin-bottom: 0px;
+    margin-top: 3px;
 }
 nav li {
-    display: inline;
+    display: inline-block;
     border: 1px solid black;
     padding: 5px;
-    margin-left: 10px;
+    margin-left: 20px;
+    background-color: green;
+    
 }
 nav a {
     text-decoration: none;
