@@ -49,3 +49,41 @@ body table th, body table td{
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+footer a {
+    color: tomato;
+    text-decoration: none;
+}
+
+.left{
+    float: left;
+    width: 50%;
+    background-color: black;
+    overflow: scroll;
+}
+
+.right{
+    float: right;
+    width: 50%;
+    background-color: black;
+    overflow: scroll;
+}
+
+footer {
+    background-color: black;
+    padding: 20px;
+    color: white;
+    min-height:100px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer img {
+   width: 100px;
+}
+
+.right li {
+   display:inline-block;
+}
